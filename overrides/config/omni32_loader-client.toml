@@ -1,0 +1,9 @@
+# Default Omni32 Loader config for this pack.
+# Adjust assets.root to your local AssetConverter output path.
+
+[assets]
+    root = "../AssetConverter/output/assets"
+    activeOnly = true
+    logDiscovery = true
+    extraNamespaces = []
+    excludedNamespaces = []

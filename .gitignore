@@ -1,0 +1,7 @@
+instance/
+overrides/mods/*.jar
+!overrides/mods/.gitkeep
+manifest/pack.json
+manifest/modlist.html
+*.log
+.DS_Store
