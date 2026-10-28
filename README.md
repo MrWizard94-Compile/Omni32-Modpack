@@ -15,7 +15,7 @@ Kitchen-sink Forge **1.20.1** modpack built around the [Omni32](https://github.c
 
 ```powershell
 # 1. Generate draft manifest from upscaled namespaces
-$env:ASSETCONVERTER_ROOT = "C:\Projects\AssetConverter"
+$env:ASSETCONVERTER_ROOT = "C:\WPAI\AI-Research\AssetConverter"
 python scripts/generate_manifest.py
 
 # 2. Copy overrides + install mods from manifest into a Forge 1.20.1 instance

@@ -111,7 +111,7 @@ def build_curse_index(atm10: list[dict]) -> dict[str, int]:
 
 
 def main() -> int:
-    ac_root = Path(os.environ.get("ASSETCONVERTER_ROOT", r"C:\Projects\AssetConverter"))
+    ac_root = Path(os.environ.get("ASSETCONVERTER_ROOT", r"C:\WPAI\AI-Research\AssetConverter"))
     pack_root = Path(__file__).resolve().parents[1]
     manifest_dir = pack_root / "manifest"
     manifest_dir.mkdir(exist_ok=True)
